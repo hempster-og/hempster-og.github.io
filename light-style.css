@@ -1,0 +1,79 @@
+body {
+	background: rgba(25, 200, 25, 1);
+}
+header {
+	background: rgba(25, 255, 25, 0.5);
+	border: 1pt solid rgba(0, 0, 0, 1);
+	margin: 5pt;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 5%;
+}
+#logo {
+	display: inline-block;
+	margin: 5pt auto;
+}
+#links {
+	display: inline-block;
+	width: auto;
+	text-align: right;
+	margin: auto;
+}
+.external-links {
+	font-weight: 600;
+	line-height: 5pt;
+}
+.link-lines {
+	display: inline-block;
+}
+main {
+	margin: 5pt;
+	background: rgba(100, 200, 100, 0.5);
+	border: 1pt solid rgba(0, 0, 0, 1);
+	border-radius: 5%;
+}
+h1 {
+	text-align: center;
+	line-height: 1;
+}
+#body {
+	text-align: center;
+}
+.body-parts {
+	margin: 5pt;
+	width: 47%;
+	display: inline-block;
+	vertical-align: middle;
+}
+h2 {
+	line-height: 1;
+}
+
+h3 {
+	line-height: 1;
+}
+#hmpstr-pic {
+	border: 1pt solid rgba(0,0,0,1);
+	margin: 5pt;
+}
+.body-members {
+	text-indent: 4ch;
+	font-size: 14pt;
+	text-align: left;
+}
+#message-box {
+	margin: auto;
+}
+footer {
+	background: rgba(25, 255, 25, 0.5);
+	border: 1pt solid rgba(0, 0, 0, 1);
+	display: flex;
+	margin: 5pt;
+	border-radius: 5%;
+}
+#copyright {
+	margin: auto;
+	font-weight: 600;
+	font-size: 12pt;
+}
