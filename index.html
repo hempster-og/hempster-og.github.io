@@ -5,17 +5,18 @@
 			hmpstr - home
 		</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="light-style.css">
 	</head>
-	<body style="background: rgba(25, 200, 25, 1);">
-		<header style="background-color: rgba(50, 255, 50, 1); border: 1pt solid black; width: 70%; margin-left: auto; margin-right: auto; position:static; height: auto; display: flex; justify-content: space-around;">
-			<div style="display: inline-block;">
+	<body>
+		<header>
+			<div id="logo">
 				<a href="/">
-					<img style="width: auto; height: 50pt; margin: 10pt 0pt 10pt 20pt;" src="hmpstr-logo.png">
+					<img src="hmpstr-logo.png">
 				</a>
 			</div>
-			<div style="display: block; width: auto; text-align: right; vertical-align: middle; margin-right: 10pt;">
-				<p style="line-height: 1pt; line-height: 1;">
-					<span style="display: inline-block; line-height: 1;">
+			<div id="links">
+				<p class="external-links">
+					<span class="link-lines">
 						Watch on
 						<a rel="external" ; target="_blank" ; title="twitch.tv/hmpstr_og" ; href="https://twitch.tv/hmpstr_og">
 							Twitch,
@@ -28,7 +29,8 @@
 							TikTok
 						</a>
 					</span>
-					<span style="display: block; line-height: 1;">
+				<p class="external-links">
+					<span class="link-lines">
 						Find on
 						<a rel="external" ; target="_blank" ; title="facebook.com/hmpstrOG" ; href="https://www.facebook.com/hmpstrOG">
 							Facebook,
@@ -41,7 +43,8 @@
 							Twitter
 						</a>
 					</span>
-					<span style = "display: block; line-height: 1;">
+				<p class="external-links">
+					<span class="link-lines">
 						Discover on
 						<a rel="external" ; target="_blank" ; title="github.com/hmpstr" ; href="https://github.com/hmpstr">
 							Github
@@ -50,65 +53,65 @@
 			</div>
 		</header>
 		<main>
-			<h1 style="text-align: center; line-height: 1;">
+			<h1>
 				Hilo from hmpstr
 			</h1>
-			<div style="text-align: center;">
-			<div style="width: 45%; text-align: center; display: inline-block; vertical-align: top;">
-				<h2 style="line-height: 1;">
-					Who is hmpstr?
-				</h2>
-				<h3 style="line-height: 1;">
-					Robert Kelly
-				</h3>
-				<p style="text-indent: 4ch; font-size: 14pt; text-align: left;">
-					Robert, also known as hmpstr (pronounced hemp-ster), is a budding website developer and software designer, Twitch and YouTube live streamer, McDonald's crew member, gamer, and vaper. His goal is to develop the Cosmos.
-				<img src="hmpstr-portrait.png" style="width: 100%; height:auto;">
-			</div>
-			<div style="width: 45%; text-align: center; display: inline-block; vertical-align: top;">
-				<h2 style="line-height: 1;">
-					What is hmpstr creating?
-				</h2>
-				<h3 style="line-height: 1">
-					Cosmos MMORPGS Server
-				</h3>
-				<p style="text-indent: 4ch; font-size: 14pt; text-align: left;">
-					Cosmos will be a Text-Based Massive Multiplayer Online Role-Playing Survival Game server built with vanilla Java.
-				<h2 style="text-align: center; line-height: 1;">
-					How can I reach hmpstr?
-				</h2>
-				<h3 style="line-height: 1;">
-					Can anybody get ahold of this guy?
-				</h3>
-				<p>
-					Yes!
-				<p>
-					<a href="tel:+17196950179">Call +1(719)695-0179</a>
-				<p>
-						<a href="mailto:hmpstr4point20@gmail.com" target="_blank">Email hmpstr4point20@gmail.com</a>
-				<p>
-					Or type your message here!
-				<span>
-					<form action="/" method="post">
-						<textarea rows="10" cols="60" name="p" id="input">This text area is currently not working on hmpstr.github.io, and will result in a 405 NOT ALLOWED error. It has been tested to work on Cosmos.</textarea>
-						<button type="submit">Send your message :-)</button>
-					</form>
-				</span>
-				<span style="margin-left: 15%;">
-					<form action="https://www.paypal.com/donate" method="post" target="_blank">
-						<input type="hidden" name="business" value="BUYTSQRGDUENG" />
-						<input type="hidden" name="no_recurring" value="0" />
-						<input type="hidden" name="item_name" value="Developing an open-source smart Hemp-based Electric Retractable Building, or HERB, for the homeless." />
-						<input type="hidden" name="currency_code" value="USD" />
-						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-						<img alt="Donate with PayPal button" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-					</form>
-				</span>
-			</div>
+			<div id="body">
+				<div class="body-parts">
+					<h2 class="subheaders">
+						Who is hmpstr?
+					</h2>
+					<h3 style="line-height: 1;">
+						Robert Kelly
+					</h3>
+					<p class="body-members">
+						Robert, also known as hmpstr (pronounced hemp-ster), is a budding website developer and software designer, Twitch and YouTube live streamer, McDonald's crew member, gamer, and vaper. His goal is to develop the Cosmos.
+					<img id="hmpstr-pic" src="hmpstr-portrait.png" style="width: 100%; height:auto;">
+				</div>
+				<div class="body-parts">
+					<h2>
+						What is hmpstr creating?
+					</h2>
+					<h3>
+						Cosmos MMORPGS Server
+					</h3>
+					<p class="body-members">
+						Cosmos will be a Text-Based Massive Multiplayer Online Role-Playing Survival Game server built with vanilla Java.
+					<h2>
+						Can anybody send a message to this guy?
+					</h2>
+					<h3>
+						Yes!
+					</h3>
+					<p class="body-members">
+						Text
+						<a href="tel:+17196950179">+1(719)695-0179</a>
+					<p class="body-members">
+						Email
+							<a href="mailto:hmpstr4point20@gmail.com" target="_blank">hmpstr4point20@gmail.com</a>
+					<p class="body-members">
+						Or send a message here!
+					<span>
+						<form action="/" method="post">
+							<textarea oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"' name="p", id="iput"></textarea>
+							<button type="submit">Send</button>
+						</form>
+					</span>
+					<span id="message-box">
+						<form action="https://www.paypal.com/donate" method="post" target="_blank">
+							<input type="hidden" name="business" value="BUYTSQRGDUENG" />
+							<input type="hidden" name="no_recurring" value="0" />
+							<input type="hidden" name="item_name" value="Developing an open-source smart Hemp-based Electric Retractable Building, or HERB, for the homeless." />
+							<input type="hidden" name="currency_code" value="USD" />
+							<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+							<img alt="Donate with PayPal button" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+						</form>
+					</span>
+				</div>
 			</div>
 		</main>
-		<footer style="background-color: rgba(50, 255, 50, 1); border: 1pt solid black; margin-left: auto; margin-right: auto; position:static; height: auto; display: flex; justify-content: space-around;">
-			<span style="margin-left: 5%; font-weight: 600; font-size: 12pt;">
+		<footer>
+			<span id="copyright">
 				owned, designed, and maintained by hmpstr &copy; 2023 hmpstr
 			</span>
 		</footer>
