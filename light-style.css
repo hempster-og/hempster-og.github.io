@@ -10,7 +10,6 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	margin: auto;
-	padding: 0pt 2pt;
 	border-radius: 5%;
 }
 .header {
@@ -68,11 +67,19 @@ footer {
 	background: rgba(25, 255, 25, 0.5);
 	border: 1pt solid rgba(0, 0, 0, 1);
 	display: flex;
-	margin: 1pt;
+	margin: 1pt auto;
 	border-radius: 5%;
 }
 #copyright {
 	margin: auto;
 	font-weight: 600;
 	font-size: 12pt;
+}
+@media (max-width: 471px) {
+	.body-parts {
+		width: 95%;
+		display: block;
+		vertical-align: middle;
+		margin: 1pt;
+	}
 }
