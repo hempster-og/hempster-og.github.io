@@ -1,48 +1,45 @@
 body {
 	background: rgba(25, 200, 25, 1);
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1pt;
 }
 header {
 	background: rgba(25, 255, 25, 0.5);
 	border: 1pt solid rgba(0, 0, 0, 1);
-	margin: 5pt;
-	height: auto;
 	display: flex;
-	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: auto;
+	padding: 0pt 2pt;
 	border-radius: 5%;
 }
-#logo {
-	display: inline-block;
-	margin: 5pt auto;
-}
-#links {
-	display: inline-block;
-	width: auto;
-	text-align: right;
+.header {
+	padding: 1pt 2pt;
+	text-align: center;
 	margin: auto;
 }
 .external-links {
 	font-weight: 600;
-	line-height: 5pt;
+	line-height: 2pt;
 }
 .link-lines {
-	display: inline-block;
 }
 main {
-	margin: 5pt;
+	margin: 1pt;
 	background: rgba(100, 200, 100, 0.5);
 	border: 1pt solid rgba(0, 0, 0, 1);
 	border-radius: 5%;
 }
 h1 {
-	text-align: center;
 	line-height: 1;
+	text-align: center;
 }
 #body {
 	text-align: center;
 }
 .body-parts {
-	margin: 5pt;
-	width: 47%;
+	margin: 1pt;
+	width: 49%;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -55,21 +52,23 @@ h3 {
 }
 #hmpstr-pic {
 	border: 1pt solid rgba(0,0,0,1);
-	margin: 5pt;
+	margin: 1pt;
 }
 .body-members {
-	text-indent: 4ch;
 	font-size: 14pt;
-	text-align: left;
+	overflow-wrap: break-word;
 }
 #message-box {
 	margin: auto;
+}
+#p {
+	width: 80%;
 }
 footer {
 	background: rgba(25, 255, 25, 0.5);
 	border: 1pt solid rgba(0, 0, 0, 1);
 	display: flex;
-	margin: 5pt;
+	margin: 1pt;
 	border-radius: 5%;
 }
 #copyright {
