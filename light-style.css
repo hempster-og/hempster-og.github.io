@@ -37,8 +37,8 @@ h1 {
 	text-align: center;
 }
 .body-parts {
-	margin: 1pt;
-	width: 49%;
+	width: 48vw;
+	padding: 5pt;
 	display: inline-block;
 	vertical-align: middle;
 }
